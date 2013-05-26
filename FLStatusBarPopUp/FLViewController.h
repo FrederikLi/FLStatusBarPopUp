@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FLStatusBarPopUp.h"
 
 @interface FLViewController : UIViewController
+{
+    FLStatusBarPopUp *statusBarPopUpInstance;
+}
+
+
 
 @end
