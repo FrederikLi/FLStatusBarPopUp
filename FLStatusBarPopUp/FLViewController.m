@@ -26,22 +26,16 @@
     if ([[UIScreen mainScreen] bounds].size.height == 568)
     {
         UIView *bgr = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 548)];
-        bgr.backgroundColor = [UIColor whiteColor];
+        bgr.backgroundColor = [UIColor colorWithWhite:0.95 alpha:1.0];
         bgr.layer.cornerRadius = 10.0f;
         [self.view addSubview:bgr];
     } else
     {
         UIView *bgr = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 498)];
-        bgr.backgroundColor = [UIColor whiteColor];
+        bgr.backgroundColor = [UIColor colorWithWhite:0.95 alpha:1.0];
         bgr.layer.cornerRadius = 10.0f;
         [self.view addSubview:bgr];
     }
-    
-    
-    UIView *bgr = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 498)];
-    bgr.backgroundColor = [UIColor whiteColor];
-    bgr.layer.cornerRadius = 10.0f;
-    [self.view addSubview:bgr];
 	
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [button addTarget:self
