@@ -2,7 +2,7 @@
 
 Status Bar Messages for iOS like Mailbox App.
 
-![FLStatusBarPopUp](FLStatusBarPopUp@30%.png)
+![FLStatusBarPopUp](FLStatusBarPopUp.png)
 
 This is my first git so if you have any tipps or suggestions please let me know. So anyway.
 
